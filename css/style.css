@@ -1,0 +1,116 @@
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container2 {
+  width: 90%;
+  margin: 0 auto;
+  border: solid green 2px;
+  background-color: greenyellow;
+}
+
+.txtinfo {
+  width: 338px;
+  height: 101px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.txtinfo > h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+}
+
+.txtfill {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+textarea {
+  width: 720px;
+  height: 288px;
+  padding: 24px 20px;
+  box-sizing: border-box;
+  border: 2px solid #e8e8e8;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 13px;
+  color: black;
+  resize: none;
+}
+
+.form1 {
+  height: 288px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input {
+  width: 352px;
+  height: 60px;
+  padding: 20px 24px;
+  box-sizing: border-box;
+}
+
+.send {
+  background-color: #5863f8;
+  color: whitesmoke;
+  font-size: 15px;
+}
+
+.circles {
+  width: 60px;
+  height: 60px;
+  background-color: #5863f8;
+  border-radius: 51%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.fa-envelope {
+  font-size: 25px;
+  color: #e8e8e8;
+}
+.fa-mobile-screen {
+  font-size: 25px;
+  color: #e8e8e8;
+}
+.fa-location-dot {
+  font-size: 25px;
+  color: #e8e8e8;
+}
+
+.iconcard {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  width: 150px;
+  align-items: center;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #b1b1b1;
+}
