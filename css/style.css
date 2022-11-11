@@ -1,13 +1,15 @@
 .container {
   max-width: 1170px;
-  width: 100%;
+  width: 80%;
+
   margin: 0 auto;
 }
 
-.container2 {
-  width: 110%;
+/* .container2 {
+  max-width: 1170px;
+  width: 80%;
   margin: 0 auto;
-}
+} */
 
 .txtinfo1 {
   width: 350px;
@@ -124,4 +126,88 @@ h3 {
   font-weight: 400;
   font-size: 42px;
   margin-bottom: 62px;
+}
+
+.container2 {
+  max-width: 1328px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.pics {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer {
+  width: 1366px;
+  margin: 0 auto;
+  padding-left: 160px;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  background-color: #000000;
+  display: flex;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.contactcard1 {
+  width: 260px;
+  margin-right: 180px;
+}
+p {
+  color: #b1b1b1;
+  margin-bottom: 20px;
+}
+
+.fa-facebook {
+  color: #3b5998;
+  background-color: #f8f8f8;
+  border-radius: 51%;
+  font-size: 35px;
+}
+
+.fa-twitter {
+  color: #55acee;
+  background-color: #f8f8f8;
+  font-size: 35px;
+  border-radius: 51%;
+}
+.fa-google-plus {
+  color: #dc4e41;
+  background-color: #f8f8f8;
+  font-size: 35px;
+  border-radius: 51%;
+}
+
+.contactcard2 {
+  margin-right: 150px;
+}
+
+h5 {
+  font-family: "Poppins", sans-serif;
+
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+li {
+  font-family: "Poppins", sans-serif;
+  font-weight: medium;
+  font-size: 14px;
+  color: #5863f8;
+  margin-bottom: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
 }
